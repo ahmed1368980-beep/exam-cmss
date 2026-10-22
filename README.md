@@ -48,6 +48,6 @@ Limites : deux backends doublent la configuration à maintenir, et le secours ne
 - Backend Railway : dossier racine `backend/`, commande `npm start`
 
 ## Liens
-- Frontend Vercel : _à compléter_
+- Frontend Vercel : https://mern-othman-mekouar-front.vercel.app
 - Backend Vercel : _à compléter_ (`/api/health`)
 - Backend Railway : _à compléter_ (`/api/health`)
