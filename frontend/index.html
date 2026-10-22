@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Items MERN</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Mes éléments</h1>
+    <p id="source" class="muted"></p>
+
+    <form id="item-form" novalidate>
+      <label>Nom
+        <input id="name" name="name" required maxlength="100" />
+      </label>
+      <label>Description
+        <textarea id="description" name="description" maxlength="500" rows="2"></textarea>
+      </label>
+      <button type="submit" id="submit-btn">Ajouter</button>
+    </form>
+
+    <div id="error" class="error" role="alert" hidden></div>
+    <ul id="items" class="items"></ul>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
